@@ -46,6 +46,6 @@ Actionable recommendations based on the SQL analysis results.
 Instructions for reproducing the analysis.
 
 ## Files in This Repository
-- `coffee_sales_data.csv`: Raw dataset
+- `coffee_sales_data.csv`: http://raw.githubusercontent.com/Luke-Ren1/Patient-Demographic-Analysis/refs/heads/main/sql/patient_encounter_analysis.sql Raw dataset
 - `sql_queries.sql`: All SQL queries used in the analysis
 - `analysis_results.md`: Summary of findings
