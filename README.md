@@ -28,7 +28,13 @@ date date
 The column names need to match the data source, and the data type must match!
 
 ### Importing CSV Data
-Step-by-step guide on how to import CSV files into PostgreSQL.
+Find the location of our data, and use this code to input our data into the table we created earlier
+```sql
+COPY coffee_sales
+FROM 'D:\Data Analysis\Data Sets\Coffe_sales.csv'
+DELIMITER ','
+CSV HEADER;
+```
 
 ## SQL Business Analysis
 1.
