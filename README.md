@@ -10,11 +10,26 @@ Information about the dataset used in this analysis.
 
 ### Creating Tables in PostgreSQL
 Explanation of how to create the necessary tables.
+```sql
+CREATE TABLE coffee_sales
+(hour_of_day numeric,
+cash_type text,
+money numeric,
+coffee_name text,
+time_of_day text,
+weekday text,
+month_name text,
+weekdaysort numeric,
+monthsort numeric,
+date date
+);
+```
 
 ### Importing CSV Data
 Step-by-step guide on how to import CSV files into PostgreSQL.
 
 ## SQL Business Analysis
+1.
 
 ### Data Exploration Queries
 Queries to understand the basic structure and quality of the data.
