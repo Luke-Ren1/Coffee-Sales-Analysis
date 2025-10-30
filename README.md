@@ -9,7 +9,8 @@ Information about the dataset used in this analysis.
 ## Database Setup
 
 ### Creating Tables in PostgreSQL
-Explanation of how to create the necessary tables.
+
+Here, we need to first create the table where our data will live in.
 ```sql
 CREATE TABLE coffee_sales
 (hour_of_day numeric,
@@ -24,6 +25,7 @@ monthsort numeric,
 date date
 );
 ```
+The column names need to match the data source, and the data type must match!
 
 ### Importing CSV Data
 Step-by-step guide on how to import CSV files into PostgreSQL.
