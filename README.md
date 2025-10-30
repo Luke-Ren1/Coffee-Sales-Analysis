@@ -37,7 +37,7 @@ CSV HEADER;
 ```
 
 ## SQL Business Analysis
-1.
+1. Which is the top selling coffee?
 
 ### Data Exploration Queries
 Queries to understand the basic structure and quality of the data.
