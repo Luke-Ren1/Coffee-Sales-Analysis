@@ -46,6 +46,6 @@ Actionable recommendations based on the SQL analysis results.
 Instructions for reproducing the analysis.
 
 ## Files in This Repository
-- `coffee_sales_data.csv`: (powerbi/dax_calculations.md) Raw dataset
+- [`coffee_sales_data.csv`:] (powerbi/dax_calculations.md) Raw dataset
 - `sql_queries.sql`: All SQL queries used in the analysis
 - `analysis_results.md`: Summary of findings
