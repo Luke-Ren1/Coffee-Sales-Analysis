@@ -37,7 +37,22 @@ CSV HEADER;
 ```
 
 ## SQL Business Analysis
-1. Which is the top selling coffee?
+**1. Which is the top selling coffee?**
+```sql
+Select 
+	coffee_name,
+	count(*) AS times_ordered,
+	ROUND(SUM(money),2) AS total_revenue
+FROM
+	coffee_sales
+GROUP BY
+	coffee_name
+ORDER BY
+	total_revenue desc
+```
+**Answer**
+<img width="471" height="298" alt="image" src="https://github.com/user-attachments/assets/9081b7cd-b230-4896-b319-9a4884e3029a" />
+
 
 ### Data Exploration Queries
 Queries to understand the basic structure and quality of the data.
