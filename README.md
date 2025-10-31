@@ -54,9 +54,9 @@ ORDER BY
 
 <img width="477" height="297" alt="image" src="https://github.com/user-attachments/assets/3755de14-1ef6-42ee-b98e-dd2ff431a370" />
 
-*In terms of revenue, Latte is the best-selling coffee
+-In terms of revenue, Latte is the best-selling coffee
 
-*In terms of order, Americano with milk is the best-selling coffee
+-In terms of order, Americano with milk is the best-selling coffee
 
 ### Data Exploration Queries
 Queries to understand the basic structure and quality of the data.
