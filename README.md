@@ -37,6 +37,7 @@ CSV HEADER;
 ```
 
 ## SQL Business Analysis
+### ☕ Product Performance
 **1. Which is the top-selling coffee?**
 ```sql
 Select 
@@ -57,7 +58,9 @@ ORDER BY
 - In terms of revenue, Latte is the best-selling coffee
 - In terms of order, Americano with milk is the best-selling coffee
 
-### Data Exploration Queries
+**2. **
+
+### 🕒 Time-Based Analysis
 Queries to understand the basic structure and quality of the data.
 
 ### Sales Performance Analysis
