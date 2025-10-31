@@ -51,6 +51,7 @@ ORDER BY
 	total_revenue desc
 ```
 **Answer**
+
 <img width="471" height="298" alt="image" src="https://github.com/user-attachments/assets/9081b7cd-b230-4896-b319-9a4884e3029a" />
 
 
