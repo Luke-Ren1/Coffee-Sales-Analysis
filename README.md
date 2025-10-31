@@ -51,7 +51,13 @@ GROUP BY
 ORDER BY
 	total_revenue desc
 ```
-**Answer:**
+####Answer:
+| customer_id | total_sales |
+| ----------- | ----------- |
+| A           | 76          |
+| B           | 74          |
+| C           | 36          |
+
 
 <img width="477" height="297" alt="image" src="https://github.com/user-attachments/assets/3755de14-1ef6-42ee-b98e-dd2ff431a370" />
 - In terms of revenue, Latte is the best-selling coffee
