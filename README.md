@@ -52,13 +52,7 @@ ORDER BY
 	total_revenue desc
 ```
 **Answer:**
-| customer_id | total_sales |
-| ----------- | ----------- |
-| A           | 76          |
-| B           | 74          |
-| C           | 36          |
 
-***
 <img width="477" height="297" alt="image" src="https://github.com/user-attachments/assets/3755de14-1ef6-42ee-b98e-dd2ff431a370" />
 - In terms of revenue, Latte is the best-selling coffee
   
@@ -95,9 +89,10 @@ GROUP BY
 ORDER BY
 	total_revenue desc
 ```
-**Answer:**
-<img width="300" height="143" alt="image" src="https://github.com/user-attachments/assets/4cbd5a52-0ada-4d0a-b0df-751aaff11081" />
+**Answer:** 
 
+<img width="300" height="143" alt="image" src="https://github.com/user-attachments/assets/4cbd5a52-0ada-4d0a-b0df-751aaff11081" />
+***
 
 ### Sales Performance Analysis
 SQL queries analyzing sales trends, revenue, and performance metrics.
