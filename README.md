@@ -58,7 +58,17 @@ ORDER BY
 - In terms of revenue, Latte is the best-selling coffee
 - In terms of order, Americano with milk is the best-selling coffee
 
-**2. **
+**2. What is the price range for each coffee type?**
+```sql
+SELECT 
+    coffee_name,
+    ROUND(MAX(money),2) AS max_price,
+    ROUND(MIN(money),2) AS min_price,
+    ROUND(AVG(money),2) AS avg_price
+FROM coffee_sales
+GROUP BY coffee_name
+ORDER BY avg_price DESC;
+```
 
 ### 🕒 Time-Based Analysis
 Queries to understand the basic structure and quality of the data.
