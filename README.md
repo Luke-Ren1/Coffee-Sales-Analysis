@@ -54,8 +54,8 @@ ORDER BY
 **Answer:**
 
 <img width="477" height="297" alt="image" src="https://github.com/user-attachments/assets/3755de14-1ef6-42ee-b98e-dd2ff431a370" />
-
 - In terms of revenue, Latte is the best-selling coffee
+  
 - In terms of order, Americano with milk is the best-selling coffee
 
 ***
@@ -71,13 +71,27 @@ FROM coffee_sales
 GROUP BY coffee_name
 ORDER BY avg_price DESC;
 ```
-**Answer**
+**Answer:**
 
 <img width="531" height="291" alt="image" src="https://github.com/user-attachments/assets/bf777a4d-8e05-48c9-bc2e-86de7cff2580" />
 
 
 ### 🕒 Time-Based Analysis
-Queries to understand the basic structure and quality of the data.
+**3. Which time of day brings in the most revenue?**
+```sql
+SELECT
+	time_of_day,
+	SUM(money) AS total_revenue
+FROM
+	coffee_sales 
+GROUP BY
+	time_of_day
+ORDER BY
+	total_revenue desc
+```
+**Answer:**
+<img width="300" height="143" alt="image" src="https://github.com/user-attachments/assets/4cbd5a52-0ada-4d0a-b0df-751aaff11081" />
+
 
 ### Sales Performance Analysis
 SQL queries analyzing sales trends, revenue, and performance metrics.
