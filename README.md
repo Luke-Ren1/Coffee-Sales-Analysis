@@ -69,6 +69,10 @@ FROM coffee_sales
 GROUP BY coffee_name
 ORDER BY avg_price DESC;
 ```
+**Answer**
+
+<img width="531" height="291" alt="image" src="https://github.com/user-attachments/assets/bf777a4d-8e05-48c9-bc2e-86de7cff2580" />
+
 
 ### 🕒 Time-Based Analysis
 Queries to understand the basic structure and quality of the data.
