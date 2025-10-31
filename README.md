@@ -58,6 +58,8 @@ ORDER BY
 - In terms of revenue, Latte is the best-selling coffee
 - In terms of order, Americano with milk is the best-selling coffee
 
+***
+
 **2. What is the price range for each coffee type?**
 ```sql
 SELECT 
