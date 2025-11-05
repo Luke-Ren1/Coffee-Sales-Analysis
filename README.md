@@ -95,6 +95,23 @@ ORDER BY
 
 <img width="300" height="143" alt="image" src="https://github.com/user-attachments/assets/4cbd5a52-0ada-4d0a-b0df-751aaff11081" />
 
+
+**4. What are the busiest hours of the day?**
+```sql
+SELECT
+	hour_of_day,
+	count(*) AS order_count
+FROM
+	coffee_sales
+GROUP BY
+	hour_of_day
+ORDER BY
+	order_count DESC
+```
+**Answer:** 
+
+<img width="293" height="578" alt="image" src="https://github.com/user-attachments/assets/abd5500b-1266-4fb2-8eb4-84a3807d594a" />
+
 ***
 
 ### Sales Performance Analysis
