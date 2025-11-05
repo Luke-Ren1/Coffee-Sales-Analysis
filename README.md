@@ -96,6 +96,7 @@ ORDER BY
 <img width="300" height="143" alt="image" src="https://github.com/user-attachments/assets/4cbd5a52-0ada-4d0a-b0df-751aaff11081" />
 
 
+
 **4. What are the busiest hours of the day?**
 ```sql
 SELECT
