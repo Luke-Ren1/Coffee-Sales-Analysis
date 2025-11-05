@@ -96,10 +96,6 @@ ORDER BY
 <img width="300" height="143" alt="image" src="https://github.com/user-attachments/assets/4cbd5a52-0ada-4d0a-b0df-751aaff11081" />
 
 
-
-
-
-
 **4. What are the busiest hours of the day?**
 ```sql
 SELECT
@@ -115,6 +111,23 @@ ORDER BY
 **Answer:** 
 
 <img width="293" height="578" alt="image" src="https://github.com/user-attachments/assets/abd5500b-1266-4fb2-8eb4-84a3807d594a" />
+
+
+**5. Which days of the week are busiest?**
+```sql
+SELECT
+	weekday,
+	count(*) AS order_count
+FROM
+	coffee_sales
+GROUP BY
+	weekday, weekdaysort
+ORDER BY
+	order_count DESC
+```
+**Answer:**
+
+<img width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/7704352d-c9c7-4395-9437-2f5dbca49cca" />
 
 ***
 
