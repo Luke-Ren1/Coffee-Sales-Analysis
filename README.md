@@ -181,19 +181,6 @@ FROM
 <img width="738" height="74" alt="image" src="https://github.com/user-attachments/assets/55258902-a0c8-42ab-8016-7059f7262b98" />
 
 
-
-### Sales Performance Analysis
-SQL queries analyzing sales trends, revenue, and performance metrics.
-
-### Product Analysis
-Analysis of product performance, top-selling items, and category performance.
-
-### Customer Analysis
-Insights into customer behavior, segmentation, and purchasing patterns.
-
-### Seasonal Trends Analysis
-Queries examining seasonal patterns and time-based trends.
-
 ## Key Findings
 Summary of the most important insights discovered through the analysis.
 
@@ -202,11 +189,8 @@ Actionable recommendations based on the SQL analysis results.
 
 ## Tools Used
 - PostgreSQL
-- SQL
-- (Add any other tools you used)
+- Power BI
 
-## How to Run This Analysis
-Instructions for reproducing the analysis.
 
 ## Files in This Repository
 - [Raw Dataset](powerbi/dax_calculations.md)
