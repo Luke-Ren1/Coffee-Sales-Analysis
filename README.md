@@ -36,6 +36,28 @@ DELIMITER ','
 CSV HEADER;
 ```
 
+## Data Quality Assessment
+```sql
+SELECT 
+    -- Record counts
+    COUNT(*) AS total_records,
+    COUNT(DISTINCT date) AS business_days_covered,
+    
+    -- Date range
+    MIN(date) AS data_start_date,
+    MAX(date) AS data_end_date,
+    
+    -- Data completeness
+    COUNT(*) FILTER (WHERE coffee_name IS NULL) AS missing_coffee_names,
+    COUNT(*) FILTER (WHERE money IS NULL) AS missing_prices,
+    COUNT(*) FILTER (WHERE hour_of_day IS NULL) AS missing_hours
+FROM
+	coffee_sales
+```
+
+<img width="1119" height="74" alt="image" src="https://github.com/user-attachments/assets/a8fb2e8f-c35d-4cb8-838f-5517a91ec74c" />
+
+
 ## SQL Business Analysis
 ### ☕ Product Performance
 **1. Which is the top-selling coffee?**
