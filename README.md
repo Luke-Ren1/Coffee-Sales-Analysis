@@ -146,7 +146,7 @@ GROUP BY day_type;
 
 <img width="395" height="112" alt="image" src="https://github.com/user-attachments/assets/dda6416c-46b9-4637-9188-3556c88fe9b6" />
 
-**7. How has our revenue changed month by month?**=
+**7. How has our revenue changed month by month?**
 
 ```sql
 SELECT
@@ -164,6 +164,23 @@ ORDER BY
 <img width="333" height="421" alt="image" src="https://github.com/user-attachments/assets/a5d6728b-07dd-46c5-835c-7ac7df24f11c" />
 
 ***
+### 📊 Executive Summary
+**8.What are our key business metrics?**
+```sql
+SELECT
+	count(*) AS total_orders,
+	SUM(money) AS total_revenue,
+	ROUND(AVG(money),2) AS avg_order_value,
+	count(DISTINCT date) AS business_days,
+	ROUND(SUM(money)/count(DISTINCT date),2) AS avg_daily_revenue
+FROM
+	coffee_sales
+```
+**Answer:**
+
+<img width="738" height="74" alt="image" src="https://github.com/user-attachments/assets/55258902-a0c8-42ab-8016-7059f7262b98" />
+
+
 
 ### Sales Performance Analysis
 SQL queries analyzing sales trends, revenue, and performance metrics.
