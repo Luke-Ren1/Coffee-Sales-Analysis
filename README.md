@@ -58,6 +58,7 @@ FROM
 <img width="1119" height="74" alt="image" src="https://github.com/user-attachments/assets/a8fb2e8f-c35d-4cb8-838f-5517a91ec74c" />
 
 From the result, we can see that our data records a total of 3547 transactions in the span of 381 days.
+
 There is no missing data, and our data is complete.
 
 ## SQL Business Analysis
