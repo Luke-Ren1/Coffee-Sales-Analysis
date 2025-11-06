@@ -129,6 +129,40 @@ ORDER BY
 
 <img width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/7704352d-c9c7-4395-9437-2f5dbca49cca" />
 
+
+**6. How does weekend business compare to weekdays?**
+```sql
+SELECT 
+    CASE 
+        WHEN weekday IN ('Sat', 'Sun') THEN 'Weekend'
+        ELSE 'Weekday'
+    END AS day_type,
+    SUM(money) AS total_revenue,
+    COUNT(*) AS total_orders
+FROM coffee_sales
+GROUP BY day_type;
+```
+**Answer:**
+
+<img width="395" height="112" alt="image" src="https://github.com/user-attachments/assets/dda6416c-46b9-4637-9188-3556c88fe9b6" />
+
+**7. How has our revenue changed month by month?**=
+
+```sql
+SELECT
+	month_name,
+	SUM(money) AS monthly_revenue
+FROM
+	coffee_sales
+GROUP BY
+	month_name,monthsort
+ORDER BY
+	monthsort ASC
+```
+**Answer:**
+
+<img width="333" height="421" alt="image" src="https://github.com/user-attachments/assets/a5d6728b-07dd-46c5-835c-7ac7df24f11c" />
+
 ***
 
 ### Sales Performance Analysis
